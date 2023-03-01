@@ -110,5 +110,4 @@ public class PessoaService {
             pessoa.get().setEnderecoPrincipal(idEndereco);
         return pessoaRepository.save(pessoa.get());
     }
-//teste
 }
